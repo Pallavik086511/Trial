@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="gitconnectionFlow" doc:id="0a26023f-b04e-4c8d-9f67-0bf0e959506d" >
+		<http:listener doc:name="Listener" doc:id="45af0853-0b90-4d1e-a4ee-8f9695843262" />
+		<logger level="INFO" doc:name="Logger" doc:id="585a48bb-1152-4dd0-8ee2-4fd9000aa1c4" />
+	</flow>
+</mule>
